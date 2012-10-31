@@ -74,9 +74,5 @@
     [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
--(void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell* cell = [tableView cellForRowAtIndexPath:indexPath];
-    cell.textLabel.shadowColor = [UIColor whiteColor];
-}
 
 @end
